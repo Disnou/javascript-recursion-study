@@ -20,8 +20,8 @@ Este repositório foca em um dos conceitos mais sofisticados da ciência da comp
 
  🧠 O que é Recursividade?
 Uma função recursiva é aquela que se chama repetidamente até atingir uma condição de parada(caso base). No exemplo do Fatorial (5!), a lógica funciona como uma pilha:
-1. `5 * fatorial(4)`
-2. `4 * fatorial(3)`
+1. `5  fatorial(4)`
+2. `4  fatorial(3)`
 3. ...até chegar em `fatorial(0)`, que retorna `1`.
 
 🧪 Conteúdo Técnico
@@ -38,8 +38,8 @@ This repository focuses on one of the most sophisticated concepts in computer sc
 
  🧠 What is Recursion?
 A recursive function is one that calls itself repeatedly until it reaches a base case (stop condition). In the Factorial (5!) example, the logic works like a stack:
-1. `5 * factorial(4)`
-2. `4 * fatorial(3)`
+1. `5  factorial(4)`
+2. `4 fatorial(3)`
 3. ...until it reaches `factorial(0)`, which returns `1`.
 
  🧪 Technical Content
