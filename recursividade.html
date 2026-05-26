@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursividade | Recursion</title>
+
+<script>    
+
+// Fatorial de 5 = 5! (5 * 4 * 3 * 2 * 1)
+// Factorial of 5 = 5!
+
+/**
+ * Função recursiva para calcular o fatorial de um número
+ * Recursive function to calculate the factorial of a number
+ */
+function fatorial(x){
+    // Caso Base: se x for menor que 1, para a recursão e retorna 1
+    // Base Case: if x is less than 1, stop recursion and return 1
+    if(x < 1){
+        return 1
+    } else {
+        // Chamada recursiva: a função chama a si mesma com x-1
+        // Recursive call: the function calls itself with x-1
+        return x * fatorial(x - 1)
+    }
+}
+
+// Exibe o resultado no console | Displays the result in the console
+console.log(fatorial(5))
+
+</script>
+</head>
+<body>
+    <h1>Abra o console (F12) para ver o resultado da recursão.</h1>
+    <h1>Open the console (F12) to see the recursion result.</h1>
+</body>
+</html>
